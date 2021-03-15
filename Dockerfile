@@ -1,4 +1,4 @@
-FROM xoxoxo/php-composer:7.3-1.2
+FROM xoxoxo/php-composer:7.3-1.3
 
 # Drush needs mysql connection outside PHP.
 RUN apk add --no-cache 'mariadb-client=~10.4'
